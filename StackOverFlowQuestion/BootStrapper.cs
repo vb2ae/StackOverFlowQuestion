@@ -16,7 +16,7 @@ namespace StackOverFlowQuestion
         {
             Initialize();
              LogManager.GetLog = type => new DebuggingLogger(type);
-       }
+        }
 
         protected override void Configure()
         {
