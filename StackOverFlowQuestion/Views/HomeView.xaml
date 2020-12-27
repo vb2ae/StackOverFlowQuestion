@@ -32,7 +32,7 @@
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
-                    <DataGridTextColumn Header="Lot Numarası" Binding="{Binding ProductLotNumber2}" />
+                    <DataGridTextColumn Header="Lot Numarası" Binding="{Binding ProductLotNumber}" />
                 </DataGrid.Columns>
             </DataGrid>
 
